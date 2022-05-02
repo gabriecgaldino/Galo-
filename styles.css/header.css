@@ -1,0 +1,94 @@
+header {
+    position: absolute;
+    width:calc(100% - 220px);
+    height: 68px;
+    left: 220px;
+    top: 0px;
+
+    background: #FDF1EB;
+}
+
+.container-sm > p {
+    position: absolute;
+    width: 391px;
+    height: 16px;
+    left: 36px;
+    top: 5px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #725C5C;
+
+}
+
+.container-sm > h4 {
+    position: absolute;
+    width: 643px;
+    height: 26px;
+    left: 36px;
+    top: 23px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+
+    color: #725C5C;
+}
+
+#language {
+    position: absolute;
+    width: 97px;
+    height: 34px;
+    left: 789px;
+    top: 17px;
+
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 3px;
+    justify-content: center;
+}
+
+#welcome, #mail{
+    position: absolute;
+    width: 72px;
+    height: 18px;
+    left: 999px;
+    top: 17px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+
+    text-align: right;
+
+    color: #333333;
+}
+
+#mail{
+    position: absolute;
+    width: 163px;
+    height: 15px;
+    left: 908px;
+    top: 36px;
+}
+
+#alguem{
+    position: absolute;
+    right: 2%;
+    left: 90%;
+    top: 5px;
+    bottom: 5px;
+    background: url('../img/image.png');
+    background-repeat: no-repeat;
+    border-radius: 200px;
+}
+
