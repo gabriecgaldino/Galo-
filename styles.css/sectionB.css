@@ -142,8 +142,6 @@
 }
 
 #topico1, #topico2{
-
-
     background: #FFFFFF;
     border: 1px solid #E7E7E7;
     box-sizing: border-box;
@@ -163,7 +161,7 @@
     width: 1028px;
     height: 148px;
     left: 15px;
-    top: 550px;
+    top: 480px;
     
 }
 
@@ -176,10 +174,9 @@
 
 .title_topico {
     position: absolute;
-    left: 3.7%;
-    right: 71.09%;
-    top: 89.44%;
+    top: 15px;
     bottom: 9.12%;
+    width: 400px;
 
     font-family: 'Quicksand';
     font-style: normal;
@@ -194,17 +191,15 @@
 
 .autor {
     position: absolute;
-left: 3.7%;
-right: 45.11%;
-top: 91.1%;
-bottom: 7.81%;
+    top: 91.1%;
+    bottom: 7.81%;
 
-font-family: 'Quicksand';
-font-style: normal;
-font-weight: 500;
-font-size: 12px;
-line-height: 15px;
-/* identical to box height */
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
 
 
 color: #5C5C5C;
@@ -216,4 +211,67 @@ color: #5C5C5C;
     height: 35px;
     left: 39.17px;
     top: 50px;
+}
+
+.body_topico > p {
+    position: absolute;
+    margin-top: 20px;
+    
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    
+    color: #4D4D4D;
+}
+
+.footer_topico {
+    position: absolute;
+    width: 200px;
+    height: 19px;
+    left: 39px;
+    top: 110px; 
+    display: flex;
+    justify-content: space-around;  
+}
+
+.more {
+    background-image: url('../img/mais\ informações.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20px;
+    height: 20px;
+}
+
+#like {
+    background: #ED7839;
+    background-image: url('../img/green.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+    border-radius: 2px;
+}
+
+.item {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    
+    color: #757575;    
+}
+
+footer {
+    position: absolute;
+    width: 1046px;
+    height: 181px;
+    top: 1420px;
+    
+    background: url('../img/footer.png');    
+    background-repeat: no-repeat;
+    background-position: center;
 }
