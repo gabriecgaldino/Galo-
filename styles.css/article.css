@@ -1,3 +1,6 @@
+
+
+
 article{
     position: absolute;
     width: 1059px;
@@ -12,17 +15,19 @@ article{
     left: 0px;
     right: 273px;
     top: 0px;
-
+    width: 748px;
+    
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 900;
     font-size: 20px;
     line-height: 25px;
     /* or 125% */
-
+    
     letter-spacing: 0.05em;
-
+    
     color: #ED7839;
+    
 }
 
 #btn_download {
@@ -108,6 +113,7 @@ article{
     height: 439px;
     left: 2px;
     top: 73px;
+    
 
     background: url('../img/dewey_1.png');
 }
@@ -129,7 +135,7 @@ article{
     left: 34px;
     right: 291px;
     top: 30px;
-    width: 100%;
+    width: 700px;
     
     font-family: 'Roboto';
     font-style: normal;
