@@ -141,6 +141,18 @@
     border: 1px solid #E7E7E7;    
 }
 
+#form_topico {
+    position: absolute;
+    width: 1025px;
+    height: 270px;
+    left: 18px;
+    top: 46px;
+
+    margin-bottom: 20px;
+
+    display: none;
+}
+
 #topico1, #topico2{
     background: #FFFFFF;
     border: 1px solid #E7E7E7;
@@ -269,7 +281,7 @@ footer {
     position: absolute;
     width: 1046px;
     height: 181px;
-    top: 2000px;
+    top: 1400px;
     
     background: url('../img/footer.png');    
     background-repeat: no-repeat;
@@ -348,4 +360,86 @@ footer {
     line-height: 18px;
     
     color: #4D4D4D;    
+}
+
+#t_topico  {
+    margin-top: 10px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #5C5C5C; 
+}
+
+#l_assunto, #l_conteudo {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    margin-top: 10px;
+    color: #ED7839;    
+}
+
+#assunto, #conteudo, #bar {
+    width: 1025px;  
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;  
+}
+
+#conteudo {
+    height: 70px;
+}
+
+#bar {
+    display: flex;
+    justify-content: space-between;
+    height: 31px;
+    background: #EAF1F2;
+    border: 1px solid #CCCCCC;
+    border-radius: 0px 0px 4px 4px;
+}
+
+#bold, #italic{
+    height: 31px;
+    width: 31px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#bold {
+    background-image: url('../img/Shape.png');
+}
+#italic {
+    background-image: url('../img/Shape\ \(1\).png');
+    width: 300px;
+    margin-left: -620px;
+}
+#button {
+    text-align: center;
+    padding-top: 5px;
+
+    background: linear-gradient(180deg, #FEB154 0%, #F1833E 100%);
+    border-radius: 0px 0px 4px 0px;
+    height: 29px;
+    width: 200px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 16px;
+    /* identical to box height, or 107% */
+
+    text-align: center;
+
+    color: #FFFFFF;
 }
