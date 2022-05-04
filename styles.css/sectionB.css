@@ -269,9 +269,83 @@ footer {
     position: absolute;
     width: 1046px;
     height: 181px;
-    top: 1420px;
+    top: 2000px;
     
     background: url('../img/footer.png');    
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.response {
+    background: #ED7839;
+    position: absolute;
+    width: 1028px;
+    height: auto;
+    top: 148px;
+}
+
+#response1 {
+    position: absolute;
+    width: 1028px;
+    height: 131px;
+    background: #F8F8F8;
+    border: 1px solid #E7E7E7;
+    box-sizing: border-box;
+    border-radius: 0px;
+    padding: 20px;
+}
+
+#response2 {
+    position: absolute;
+    width: 1028px;
+    top: 130px;
+    height: 131px;
+    padding: 20px;
+}
+
+#response3 {
+    position: absolute;
+    width: 1028px;
+    top: 260px;
+    height: 131px;
+    background: #F8F8F8;
+    border: 1px solid #E7E7E7;
+    box-sizing: border-box;
+    border-radius: 0px;
+    padding: 20px;
+}
+
+#response4 {
+    position: absolute;
+    width: 1028px;
+    top: 390px;
+    height: 131px;
+    background: #F8F8F8;
+    border: 1px solid #E7E7E7;
+    box-sizing: border-box;
+    border-radius: 0px 0px 4px 4px;   
+    padding: 20px; 
+}
+
+.autor_response {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+
+
+    color: #5C5C5C;
+}
+
+.body_response {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    
+    color: #4D4D4D;    
 }
